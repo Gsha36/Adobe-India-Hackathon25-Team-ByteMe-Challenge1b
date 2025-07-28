@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-28T21:09:20.674417"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Ultimate Guide to Activities and Things to Do in the South of France",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Comprehensive Guide to Restaurants and Hotels in the South of France",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Comprehensive Guide to Major Cities in the South of France",
+      "importance_rank": 4,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "A Culinary Journey Through the South of France",
+      "importance_rank": 5,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "Whether you're traveling solo, with\nkids, or in a group, this guide will help you make the most of your trip. \u2022\nPack a Day Bag:\nBring a small day bag for daily excursions. \u2022\nSnacks:\nBring a variety of snacks for travel and outings.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Use\nthis guide to plan your trip and make the most of everything this beautiful region has to o\ufb00er. This guide will\ntake you through a variety of activities and must-see attractions to help you plan an\nunforgettable trip. \u2022\nP\u00e9rigord\n: Join a tru\ufb04e hunting tour followed by a cooking class.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "The warm, welcoming environment and\ngenerous servings make it a must-visit. The charming\nsetting and friendly sta\ufb00 ensure a pleasant dining experience for families. Family-Friendly Hotels\n\u2022\nClub Med Opio en Provence (Opio): A family-friendly resort o\ufb00ering a wide range of\nactivities for children and adults, including sports, entertainment, and kids' clubs.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Student Life\n\u2022\nUniversity Influence: Highlight the vibrant student life and the influence of the\nuniversity on the city's culture. Learning a few basic French phrases can enhance your travel experience. \u2022\nPhotography: Recommend visiting during the Rencontres d'Arles photography festival\nfor a unique cultural experience.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "The menu changes with\nthe seasons, ensuring that each visit is a new and exciting experience. Many wineries o\ufb00er guided tours and tastings, giving you the\nopportunity to sample a variety of wines and discover new favorites. Take a wine tour to visit vineyards, taste local wines, and learn about\nthe winemaking process.",
+      "page_number": 1
+    }
+  ]
+}
