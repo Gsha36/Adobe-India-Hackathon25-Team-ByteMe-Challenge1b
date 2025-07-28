@@ -97,23 +97,48 @@ Organize your PDF documents and input configuration as follows:
 
         Note: The provided run.py currently uses hardcoded persona and job_to_be_done for simplicity during local testing (Travel Planner and Plan a trip of 4 days for a group of 10 college friends.). For processing multiple distinct collections as implied by challenge1b_input.json, you would modify run.py's main block to dynamically read these from the JSON file for each collection.
 
-4. Execution
 
-To run the analysis, execute the main script from the repository's root directory:
+4. Running with Docker (Recommended for Judges)
 
-python Challenge_1b/run.py
+You can run the entire solution in a containerized environment using Docker. This ensures all dependencies are handled automatically.
+
+**Step 1: Build the Docker image**
+
+Open a terminal in the root directory of this repository and run:
+
+```powershell
+docker build -t hackathon-challenge-1b .
+```
+
+**Step 2: Run the Docker container**
+
+On Windows PowerShell, use:
+
+```powershell
+docker run --rm --name adobe1b_processor `
+  -v "${PWD}/Challenge_1b/Collection 1:/app/Collection 1" `
+  -v "${PWD}/Challenge_1b/Collection 2:/app/Collection 2" `
+  -v "${PWD}/Challenge_1b/Collection 3:/app/Collection 3" `
+  -v "${PWD}/Outputs:/app/output" `
+  hackathon-challenge-1b
+```
+
+Or as a single line (for copy-paste):
+
+```powershell
+docker run --rm --name adobe1b_processor -v "${PWD}/Challenge_1b/Collection 1:/app/Collection 1" -v "${PWD}/Challenge_1b/Collection 2:/app/Collection 2" -v "${PWD}/Challenge_1b/Collection 3:/app/Collection 3" -v "${PWD}/Outputs:/app/output" hackathon-challenge-1b
+```
 
 The script will provide progress updates in the terminal.
+
 5. Output Retrieval
 
-Upon completion, the processing results for each collection will be saved as output.json within the designated output directory (e.g., Challenge_1b/Outputs/).
+Upon completion, the processing results for each collection will be saved as `challenge1b_output.json` within each collection directory (e.g., `Challenge_1b/Collection 1/challenge1b_output.json`).
 
 The output JSON file adheres to the specified challenge requirements, containing:
 
     metadata: Details about the input documents, persona, job, and processing timestamp.
-
     extracted_sections: A ranked list of the most relevant high-level sections, including document name, section title, importance rank, and page number.
-
     subsection_analysis: More granular, concise text snippets from within the extracted sections, providing refined insights, along with document name and page number.
 
 ✅ Compliance & Performance

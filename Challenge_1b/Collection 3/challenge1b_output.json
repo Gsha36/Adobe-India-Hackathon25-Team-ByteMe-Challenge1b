@@ -13,7 +13,7 @@
     ],
     "persona": "Food Contractor",
     "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
-    "processing_timestamp": "2025-07-28T23:12:07.446907"
+    "processing_timestamp": "2025-07-28T18:19:33.896410"
   },
   "extracted_sections": [
     {
@@ -35,13 +35,13 @@
       "page_number": 1
     },
     {
-      "document": "Dinner Ideas - Mains_1.pdf",
+      "document": "Dinner Ideas - Mains_2.pdf",
       "section_title": "Document Introduction",
       "importance_rank": 4,
       "page_number": 1
     },
     {
-      "document": "Dinner Ideas - Mains_2.pdf",
+      "document": "Dinner Ideas - Mains_1.pdf",
       "section_title": "Document Introduction",
       "importance_rank": 5,
       "page_number": 1
@@ -60,17 +60,17 @@
     },
     {
       "document": "Dinner Ideas - Mains_3.pdf",
-      "refined_text": "\u2022\nSprinkle cooked bacon, diced onion, and grated Gruy\u00e8re cheese over the crust. \u2022\nGarnish with green onions and serve. Vegetable Lasagna\nIngredients:\n\u2022\n9 lasagna noodles, cooked\n\u2022\n1 small onion, diced\n\u2022\n2 cloves garlic, minced\n\u2022\n1 zucchini, sliced\n\u2022\n1 bell pepper, diced\n\u2022\n1 cup spinach, chopped\n\u2022\n1 jar (24 ounces) marinara sauce\n\u2022\n1 can (15 ounces) ricotta cheese\n\u2022\n1 egg\n\u2022\n1 cup shredded mozzarella cheese\n\u2022\n1/4 cup grated Parmesan cheese\n\u2022\n2 tablespoons olive oil\n\u2022\nSalt and pepper to taste\nInstructions:\n\u2022\nPreheat oven to 375\u00b0F (190\u00b0C).",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_1.pdf",
-      "refined_text": "\u2022\nIn a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs,\nmilk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper. \u2022\nTransfer meat mixture to a baking dish. Meatloaf\nIngredients:\n\u2022\n1 pound ground beef\n\u2022\n1/2 pound ground pork\n\u2022\n1 small onion, diced\n\u2022\n2 cloves garlic, minced\n\u2022\n1/2 cup breadcrumbs\n\u2022\n1/4 cup milk\n\u2022\n1 egg, beaten\n\u2022\n1/4 cup ketchup\n\u2022\n1 tablespoon Worcestershire sauce\n\u2022\n1 teaspoon salt\n\u2022\n1/2 teaspoon pepper\nInstructions:\n\u2022\nPreheat oven to 350\u00b0F (175\u00b0C).",
+      "refined_text": "\uf0b7\nSprinkle cooked bacon, diced onion, and grated Gruy\u00e8re cheese over the crust. Vegetable Lasagna\nIngredients:\n\uf0b7\n9 lasagna noodles, cooked\n\uf0b7\n1 small onion, diced\n\uf0b7\n2 cloves garlic, minced\n\uf0b7\n1 zucchini, sliced\n\uf0b7\n1 bell pepper, diced\n\uf0b7\n1 cup spinach, chopped\n\uf0b7\n1 jar (24 ounces) marinara sauce\n\uf0b7\n1 can (15 ounces) ricotta cheese\n\uf0b7\n1 egg\n\uf0b7\n1 cup shredded mozzarella cheese\n\uf0b7\n1/4 cup grated Parmesan cheese\n\uf0b7\n2 tablespoons olive oil\n\uf0b7\nSalt and pepper to taste\nInstructions:\n\uf0b7\nPreheat oven to 375\u00b0F (190\u00b0C). Honey Garlic Pork Ribs\nIngredients:\n\uf0b7\n2 pounds pork ribs\n\uf0b7\n1/4 cup honey\n\uf0b7\n1/4 cup soy sauce\n\uf0b7\n2 tablespoons rice vinegar\n\uf0b7\n3 cloves garlic, minced\n\uf0b7\n1 teaspoon grated ginger\n\uf0b7\n1 teaspoon paprika\n\uf0b7\nSalt and pepper to taste\n\uf0b7\nSliced green onions for garnish\nInstructions:\n\uf0b7\nPreheat oven to 300\u00b0F (150\u00b0C).",
       "page_number": 1
     },
     {
       "document": "Dinner Ideas - Mains_2.pdf",
-      "refined_text": "\u2022\nGarnish with sliced green onions and serve. \u2022\nServe chicken and vegetables in tortillas with desired toppings. Turkey Meatballs\nIngredients:\n\u2022\n1 pound ground turkey\n\u2022\n1 small onion, diced\n\u2022\n2 cloves garlic, minced\n\u2022\n1/4 cup breadcrumbs\n\u2022\n1 egg, beaten\n\u2022\n1/4 cup grated Parmesan cheese\n\u2022\n1 teaspoon oregano\n\u2022\n1 teaspoon basil\n\u2022\nSalt and pepper to taste\n\u2022\n2 tablespoons olive oil\n\u2022\n1 jar (24 ounces) marinara sauce\nInstructions:\n\u2022\nIn a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,\ngrated Parmesan cheese, oregano, basil, salt, and pepper.",
+      "refined_text": "\uf0b7\nGarnish with sliced green onions and serve. \uf0b7\nServe chicken and vegetables in tortillas with desired toppings. Turkey Meatballs\nIngredients:\n\uf0b7\n1 pound ground turkey\n\uf0b7\n1 small onion, diced\n\uf0b7\n2 cloves garlic, minced\n\uf0b7\n1/4 cup breadcrumbs\n\uf0b7\n1 egg, beaten\n\uf0b7\n1/4 cup grated Parmesan cheese\n\uf0b7\n1 teaspoon oregano\n\uf0b7\n1 teaspoon basil\n\uf0b7\nSalt and pepper to taste\n\uf0b7\n2 tablespoons olive oil\n\uf0b7\n1 jar (24 ounces) marinara sauce\nInstructions:\n\uf0b7\nIn a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,\ngrated Parmesan cheese, oregano, basil, salt, and pepper.",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\uf0b7\nIn a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs,\nmilk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper. Meatloaf\nIngredients:\n\uf0b7\n1 pound ground beef\n\uf0b7\n1/2 pound ground pork\n\uf0b7\n1 small onion, diced\n\uf0b7\n2 cloves garlic, minced\n\uf0b7\n1/2 cup breadcrumbs\n\uf0b7\n1/4 cup milk\n\uf0b7\n1 egg, beaten\n\uf0b7\n1/4 cup ketchup\n\uf0b7\n1 tablespoon Worcestershire sauce\n\uf0b7\n1 teaspoon salt\n\uf0b7\n1/2 teaspoon pepper\nInstructions:\n\uf0b7\nPreheat oven to 350\u00b0F (175\u00b0C). \uf0b7\nTransfer meat mixture to a baking dish.",
       "page_number": 1
     }
   ]
