@@ -1,83 +1,83 @@
 {
-    "metadata": {
-        "input_documents": [
-            "Learn Acrobat - Create and Convert_1.pdf",
-            "Learn Acrobat - Create and Convert_2.pdf",
-            "Learn Acrobat - Edit_1.pdf",
-            "Learn Acrobat - Edit_2.pdf",
-            "Learn Acrobat - Export_1.pdf",
-            "Learn Acrobat - Export_2.pdf",
-            "Learn Acrobat - Fill and Sign.pdf",
-            "Learn Acrobat - Generative AI_1.pdf",
-            "Learn Acrobat - Generative AI_2.pdf",
-            "Learn Acrobat - Request e-signatures_1.pdf",
-            "Learn Acrobat - Request e-signatures_2.pdf",
-            "Learn Acrobat - Share_1.pdf",
-            "Learn Acrobat - Share_2.pdf",
-            "Test Your Acrobat Exporting Skills.pdf",
-            "The Ultimate PDF Sharing Checklist.pdf"
-        ],
-        "persona": "HR professional",
-        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-        "processing_timestamp": "2025-07-10T15:34:33.350102"
-    },
-    "extracted_sections": [
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "section_title": "Change flat forms to fillable (Acrobat Pro)",
-            "importance_rank": 1,
-            "page_number": 12
-        },
-        {
-            "document": "Learn Acrobat - Create and Convert_1.pdf",
-            "section_title": "Create multiple PDFs from multiple files",
-            "importance_rank": 2,
-            "page_number": 12
-        },
-        {
-            "document": "Learn Acrobat - Create and Convert_1.pdf",
-            "section_title": "Convert clipboard content to PDF",
-            "importance_rank": 3,
-            "page_number": 10
-        },
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "section_title": "Fill and sign PDF forms",
-            "importance_rank": 4,
-            "page_number": 2
-        },
-        {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "section_title": "Send a document to get signatures from others",
-            "importance_rank": 5,
-            "page_number": 2
-        }
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
     ],
-    "subsection_analysis": [
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document.",
-            "page_number": 12
-        },
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "To enable the Fill & Sign tools, from the hamburger menu (File menu in macOS) choose Save As Other > Acrobat Reader Extended PDF > Enable More Tools (includes Form Fill-in & Save). The tools are enabled for the current form only. When you create a different form, redo this task to enable Acrobat Reader users to use the tools.",
-            "page_number": 12
-        },
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "Interactive forms contain fields that you can select and fill in. Flat forms do not have interactive fields. The Fill & Sign tool automatically detects the form fields like text fields, comb fields, checkboxes, and radio buttons. You can manually add text and other symbols anywhere on the form using the Fill & Sign tool if required.",
-            "page_number": 2
-        },
-        {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "To fill text fields: From the left panel, select Fill in form fields, and then select the field where you want to add text. It displays a text field along with a toolbar. Select the text field again and enter your text. To reposition the text box to align it with the text field, select the textbox and hover over it. Once you see a plus icon with arrows, move the textbox to the desired position. To edit the text, select the text box. Once you see the cursor and keypad, edit the text and then click elsewhere to enter. To change the text size, select A or A as required.",
-            "page_number": 2
-        },
-        {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "refined_text": "Open the PDF form in Acrobat or Acrobat Reader, and then choose All tools > Request E-signatures. Alternatively, you can select Sign from the top toolbar. The Request Signatures window is displayed. In the recipients field, add recipient email addresses in the order you want the document to be signed. The Mail and Message fields are just like the ones you use for sending an email and appear to your recipients in the same way. Change the default text in the Subject & Message area as appropriate.",
-            "page_number": 2
-        }
-    ]
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-28T22:16:25.176281"
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Types of PDF forms",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "whether you're working on a general project or managing real estate",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Document Introduction",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "In the real estate industry, sharing documents efficiently is crucial for",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "What can I do with certificate IDs?",
+      "importance_rank": 5,
+      "page_number": 20
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "You can complete the forms by entering information and adding your signatures. \u2022\nInteractive forms\n: These contain fields that you can select and fill in. \u2022\nFlat forms\n: These do\nnot have interactive fields.",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "documents. By following these checklists, you can ensure that your",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill and Sign PDF Forms\nYou can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types\nof PDF forms",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "closing deals and keeping clients informed. Here's a tailored checklist to",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Once certificate-based digital IDs have been provided to end users, they can\nuse\nAcrobat\nor\nAcrobat Reader\nsoftware to sign PDF files and validate files they receive from\nothers. Sign documents\n\u2022\nSign PDF files using certificate IDs\n\u2022\nPlace a signature box anywhere on the page\n\u2022\nAdd multiple signatures to a page\n\u2022\nAdd a time stamp to the document when working with a configured timestamp server\n\u2022\nCertify a document with a visible or hidden signature so that recipients can verify\nauthenticity with or without seeing a visible signature on the page\n\u2022\nAutomatically embed certificate data to support long-term validation\nValidate documents\n\u2022\nValidate all signatures, confirming the identity of everyone who signed the document\n\u2022\nValidate document integrity by tracking all previously signed versions of a document\nto verify changes made during the document\u2019s lifecycle\nSet privileges and permissions for others\n\u2022\nCertify a document while leaving portions of it available for\nform filling\n, signatures, or\ncomments\n\u2022\nUse Acrobat Pro software to enable users of Reader 9 or later to sign with certificate\nIDs\n\u2022\nUse Acrobat Standard or Pro to encrypt a PDF document with a certificate ID to restrict\nusage such as printing, editing, or copying",
+      "page_number": 20
+    }
+  ]
 }
