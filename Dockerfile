@@ -1,15 +1,24 @@
-# Use the official Python image from Docker Hub
-FROM python:3.10-slim
+FROM --platform=linux/amd64 python:3.11-slim
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy requirements and install dependencies
-COPY Challenge_1b/requirements.txt ./
+RUN apt-get update && apt-get install -y \
+    gcc g++ libmupdf-dev \
+    libfreetype6-dev libjpeg-dev \
+    libopenjp2-7-dev libtiff5-dev zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code
-COPY Challenge_1b/ ./
+# Pre-download transformer model
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
-# Set the default command to run the application
+COPY run.py .
+
+RUN mkdir -p /app/input /app/output
+
+ENV INPUT_DIR=/app/input
+ENV OUTPUT_DIR=/app/output
+
 CMD ["python", "run.py"]
