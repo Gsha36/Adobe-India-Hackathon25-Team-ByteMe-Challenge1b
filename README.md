@@ -44,7 +44,7 @@ Our approach for Persona-Driven Document Intelligence combines robust document u
 
 💻 Technical Stack
 
-    Language: Python 3.x
+    Language: Python 3.9 or higher
 
     PDF Processing: PyMuPDF (via fitz) for robust text and metadata extraction.
 
@@ -57,7 +57,7 @@ Our approach for Persona-Driven Document Intelligence combines robust document u
 🚀 Getting Started
 1. Prerequisites
 
-    Python 3.8+ installed.
+    Python 3.9+ installed.
 
     pip package manager.
 
@@ -67,19 +67,11 @@ Our approach for Persona-Driven Document Intelligence combines robust document u
 
 Open a terminal in the root directory of this repository.
 
-First, create and activate a virtual environment (recommended for dependency management):
+First, install all required Python packages:
+```
+    pip install -r Challenge_1b/requirements.txt
+```
 
-python -m venv venv
-# On Windows
-.\venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-
-Next, install all required Python packages:
-
-pip install -r Challenge_1b/requirements.txt
-
-Important Note: The sentence-transformers library will automatically download the all-MiniLM-L6-v2 model upon first use. For offline execution during the hackathon judging, ensure this model is downloaded prior to packaging your Docker image or running in an isolated environment.
 3. Data Preparation
 
 Organize your PDF documents and input configuration as follows:
@@ -136,13 +128,13 @@ Our solution is engineered to meet the stringent hackathon requirements:
 
     Execution Time: Optimized for performance. Our current sequential processing with batch embedding aims to meet the le60 seconds for 3-5 documents constraint.
 
-🏅 Scoring Criteria Alignment
+🏅 Criteria Alignment
 
-Our solution directly addresses the hackathon's scoring criteria for Round 1B:
+    Our solution directly addresses the hackathon's criteria for Round 1B:
 
-    Section Relevance (60 Points): Achieved through advanced semantic similarity ranking of logically extracted sections against the job description.
+    Section Relevance: Achieved through advanced semantic similarity ranking of logically extracted sections against the job description.
 
-    Sub-Section Relevance (40 Points): Enhanced by intelligently extracting and ranking the most relevant sentences within the identified sections, providing granular and high-quality insights.
+    Sub-Section Relevance: Enhanced by intelligently extracting and ranking the most relevant sentences within the identified sections, providing granular and high-quality insights.
 
 🔮 Future Enhancements
 
@@ -150,12 +142,15 @@ Our solution directly addresses the hackathon's scoring criteria for Round 1B:
 
     Advanced Sectioning: Explore more sophisticated layout analysis techniques (e.g., visual cues, document structure learning) to further improve heading detection beyond font sizes.
 
-    Interactive WebApp (Round 2 Prep): Integrate this backend logic with Adobe's PDF Embed API to build a user-friendly web application for interactive reading.
+    Interactive WebApp: Integrate this backend logic with Adobe's PDF Embed API to build a user-friendly web application for interactive reading.
 
     Dynamic Input Handling: Implement command-line arguments or more robust configuration file parsing for persona and job-to-be-done to make the solution more flexible for testing different scenarios.
 
 🤝 Team ByteMe
 
-    Members: [List your team members here]
+    Members: 
+        1. Supriya Srivastava
+        2. Gouri Sharma
+        3. Pratyush Dube
 
 This README was crafted with precision for the Adobe India Hackathon 2025.
