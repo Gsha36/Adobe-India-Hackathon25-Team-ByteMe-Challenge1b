@@ -152,5 +152,3 @@ Our solution is engineered to meet the stringent hackathon requirements:
         1. Supriya Srivastava
         2. Gouri Sharma
         3. Pratyush Dube
-
-This README was crafted with precision for the Adobe India Hackathon 2025.
